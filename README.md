@@ -14,7 +14,7 @@ You can click the Preview link to take a look at your changes.
 [![Mac OS](https://img.shields.io/badge/MacOS%20Monterey-a15522?style=flat-square&logo=MacOS&Color=ffffff)](https://support.apple.com/zh-cn/macos/)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu%2022%2e04-dd4814?style=flat-square&logo=ubuntu&logoColor=ffffff)](https://cn.ubuntu.com/download/desktop)
 [![HarmonyOS](https://img.shields.io/badge/HarmonyOS-f12354?style=flat-square&logo=harmonyos&logoColor=ffffff)](https://www.harmonyos.com/)
-[![iOS 16](https://img.shields.io/badge/iOS%2015-b54bbf?style=flat-square&logo=ios&logoColor=ffffff)]([https://www.apple.com/ios/ios-16/)
+[![iOS 16](https://img.shields.io/badge/iOS%2015-b54bbf?style=flat-square&logo=ios&logoColor=ffffff)]([https://www.apple.com/ios/ios-15/)
 
 ## 📱 Devices In Use
 [![Haiwei Mate 40](https://img.shields.io/badge/Haiwei%20Mate%2040-fd5355?style=flat-square&logo=huawei&logoColor=ffffff)](https://consumer.huawei.com/cn/phones/mate40-pro/)
