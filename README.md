@@ -9,4 +9,4 @@ ysx88/ysx88 is a ✨ special ✨ repository because its `README.md` (this file) 
 You can click the Preview link to take a look at your changes.
 --->
 
-![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
+![](https://raw.githubusercontent.com/ysx88/ysx88/output/github-snake.svg)
