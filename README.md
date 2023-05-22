@@ -20,6 +20,8 @@ You can click the Preview link to take a look at your changes.
 [![Haiwei Mate 40](https://img.shields.io/badge/Haiwei%20Mate%2040-fd5355?style=flat-square&logo=huawei&logoColor=ffffff)](https://consumer.huawei.com/cn/phones/mate40-pro/)
 [![Apple iPhone13](https://img.shields.io/badge/Apple%20iPhone%2013-adse58?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com.cn/iphone-13/)
 
+![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
+
 # 传送门
 
 **OpenWrt**https://github.com/ysx88/OpenWrt       <img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
@@ -29,13 +31,3 @@ You can click the Preview link to take a look at your changes.
 **NanoPi-R2S**https://github.com/ysx88/NanoPi-R2S       <img src="https://img.shields.io/github/downloads/ysx88/NanoPi-R2S/total.svg?style=for-the-badge&color=32C955"/>
 
 **Phicomm-N1**https://github.com/ysx88/Phicomm-N1       <img src="https://img.shields.io/github/downloads/ysx88/Phicomm-N1/total.svg?style=for-the-badge&color=32C955"/>
-
-
-<p align="center">
-    <a href="https://github.com/DHDAXCW">
-      <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=DHDAXCW&include_all_commits=true&count_private=false&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
-    </a>
-</p>
-
-![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
-
