@@ -20,7 +20,7 @@ You can click the Preview link to take a look at your changes.
 [![Haiwei Mate 40](https://img.shields.io/badge/Haiwei%20Mate%2040-fd5355?style=flat-square&logo=huawei&logoColor=ffffff)](https://consumer.huawei.com/cn/phones/mate40-pro/)
 [![Apple iPhone13](https://img.shields.io/badge/Apple%20iPhone%2013-adse58?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com.cn/iphone-13/)
 
-![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
+![](https://raw.githubusercontent.com/ysx88/ysx88/output/github-snake.svg)
 
 # 传送门
 
