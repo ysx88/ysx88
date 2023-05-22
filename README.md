@@ -6,6 +6,12 @@
     </a>
 </p>
 
+<p align="center">
+    <a href="https://github.com/DHDAXCW">
+      <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=DHDAXCW&include_all_commits=true&count_private=false&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
+    </a>
+</p>
+
 <!---
 ysx88/ysx88 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
@@ -33,11 +39,3 @@ You can click the Preview link to take a look at your changes.
 **NanoPi-R2S**https://github.com/ysx88/NanoPi-R2S       <img src="https://img.shields.io/github/downloads/ysx88/NanoPi-R2S/total.svg?style=for-the-badge&color=32C955"/>
 
 **Phicomm-N1**https://github.com/ysx88/Phicomm-N1       <img src="https://img.shields.io/github/downloads/ysx88/Phicomm-N1/total.svg?style=for-the-badge&color=32C955"/>
-### Hi I'm skull 👋
-
-<p align="center">
-    <a href="https://github.com/DHDAXCW">
-      <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=DHDAXCW&include_all_commits=true&count_private=false&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
-    </a>
-</p>
-
