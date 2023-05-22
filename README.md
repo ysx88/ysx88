@@ -1,4 +1,4 @@
-## 👋 Hi I'm TIAmo 👋
+## 👋 Hi I'm TIAmo 
 
 <p align="center">
     <a href="https://github.com/ysx88">
