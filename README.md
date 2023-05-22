@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-[![Stalker's github stats](https://github-readme-stats.vercel.app/api?username=haiibo&show_icons=true&theme=onedark)](https://github.com/ysx88)
+[![Stalker's github stats](https://github-readme-stats.vercel.app/api?username=ysx88&show_icons=true&theme=onedark)](https://github.com/ysx88)
 
 <!---
 ysx88/ysx88 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
