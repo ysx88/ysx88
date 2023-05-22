@@ -1,7 +1,7 @@
 ## 👋 Hi I'm TIAmo
 
-<p align="center">
-    <a href="https://github.com/ysx88">
+<p>
+    <a>
        [![Stalker's github stats](https://github-readme-stats.vercel.app/api?username=ysx88&show_icons=true&theme=onedark)](https://github.com/ysx88)
     </a>
 </p>
