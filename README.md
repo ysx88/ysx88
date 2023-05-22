@@ -22,6 +22,8 @@ You can click the Preview link to take a look at your changes.
 
 # 传送门
 
+**OpenWrt**https://github.com/ysx88/OpenWrt       <img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
+
 **x86-64**https://github.com/ysx88/x86-64       <img src="https://img.shields.io/github/downloads/ysx88/x86-64/total.svg?style=for-the-badge&color=32C955"/>
 
 **NanoPi-R2S**https://github.com/ysx88/NanoPi-R2S       <img src="https://img.shields.io/github/downloads/ysx88/NanoPi-R2S/total.svg?style=for-the-badge&color=32C955"/>
