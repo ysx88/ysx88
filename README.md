@@ -37,6 +37,6 @@
 <a href="https://github.com/ysx88/OpenWrt">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
-<a href="https://github.com/anuraghazra/anuraghazra.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=anuraghazra.github.io&theme=buefy" />
+<a href="https://github.com/ysx88/autobuild">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=autobuild&theme=buefy" />
 </a>
