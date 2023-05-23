@@ -34,9 +34,9 @@
 
 **Phicomm-N1**https://github.com/ysx88/Phicomm-N1       <img src="https://img.shields.io/github/downloads/ysx88/Phicomm-N1/total.svg?style=for-the-badge&color=32C955"/>
 
-<a href="https://github.com/ysx88/x86-64">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=x86-64&theme=buefy" />
+<a href="https://github.com/ysx88/OpenWrt">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
-<a href="https://github.com/ysx88/autobuild">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=autobuild&theme=buefy" />
+<a href="https://github.com/ysx88/NanoPi-R2S">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=buefy" />
 </a>
