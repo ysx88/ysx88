@@ -33,5 +33,3 @@
 **NanoPi-R2S**https://github.com/ysx88/NanoPi-R2S       <img src="https://img.shields.io/github/downloads/ysx88/NanoPi-R2S/total.svg?style=for-the-badge&color=32C955"/>
 
 **Phicomm-N1**https://github.com/ysx88/Phicomm-N1       <img src="https://img.shields.io/github/downloads/ysx88/Phicomm-N1/total.svg?style=for-the-badge&color=32C955"/>
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
