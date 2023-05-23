@@ -14,8 +14,6 @@
 <br/>
 <hr/>
 
-<a href="https://afdian.net/a/ysx88">打赏(donate me)</a>
-
 ## 💻 Working Environment
 [![Windows 11](https://img.shields.io/badge/Windows%2011-00adef?style=flat-square&logo=windows&logoColor=ffffff)](https://www.microsoft.com/zh-cn/windows/windows-11)
 [![Mac OS](https://img.shields.io/badge/MacOS%20Monterey-a15522?style=flat-square&logo=MacOS&Color=ffffff)](https://support.apple.com/zh-cn/macos/)
