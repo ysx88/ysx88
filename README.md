@@ -40,3 +40,9 @@
 <a href="https://github.com/ysx88/NanoPi-R2S">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=buefy" />
 </a>
+<a href="https://github.com/ysx88/x86-64">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=x86-64&theme=buefy" />
+</a>
+<a href="https://github.com/ysx88/Phicomm-N1">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Phicomm-N1&theme=buefy" />
+</a>
