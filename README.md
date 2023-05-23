@@ -26,14 +26,6 @@
 
 # 传送门
 
-**OpenWrt**https://github.com/ysx88/OpenWrt       <img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
-
-**x86-64**https://github.com/ysx88/x86-64       <img src="https://img.shields.io/github/downloads/ysx88/x86-64/total.svg?style=for-the-badge&color=32C955"/>
-
-**NanoPi-R2S**https://github.com/ysx88/NanoPi-R2S       <img src="https://img.shields.io/github/downloads/ysx88/NanoPi-R2S/total.svg?style=for-the-badge&color=32C955"/>
-
-**Phicomm-N1**https://github.com/ysx88/Phicomm-N1       <img src="https://img.shields.io/github/downloads/ysx88/Phicomm-N1/total.svg?style=for-the-badge&color=32C955"/>
-
 <a href="https://github.com/ysx88/OpenWrt">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
