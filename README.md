@@ -23,10 +23,10 @@
 # 传送门
 
 <a href="https://github.com/ysx88/OpenWrt">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=transparent" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
 <a href="https://github.com/ysx88/NanoPi-R2S">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=transparent" />
 </a>
 <a href="https://github.com/ysx88/x86-64">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=x86-64&theme=flag-india" />
