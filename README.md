@@ -23,7 +23,7 @@
 # 传送门
 
 <a href="https://github.com/ysx88/OpenWrt">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=gruvbox_light" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=swift" />
 </a>
 <a href="https://github.com/ysx88/NanoPi-R2S">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=buefy" />
