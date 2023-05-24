@@ -18,7 +18,6 @@
 [![Apple iPhone13](https://img.shields.io/badge/Apple%20iPhone%2013-adse58?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com.cn/iphone-13/)
 ![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
 ## :sparkling_heart: Repo Card
-
 <a href="https://github.com/ysx88/OpenWrt">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
