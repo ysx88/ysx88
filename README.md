@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/ysx88/ysx88"><img width="80%" alt="Hello, I'm TIAmo" src="./themes/TIAmo.png" /></a></p>
+<p align="center"><a href="https://github.com/ysx88"><img width="80%" alt="Hello, I'm TIAmo" src="./themes/TIAmo.png" /></a></p>
 <h4 align="center">访客数 :eyes:</h4>
 <p align="center"><img src="https://profile-counter.glitch.me/ysx88/count.svg" alt="ysx88 :: Visitor's Count" /></p>
 
