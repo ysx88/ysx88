@@ -34,3 +34,6 @@
 <a href="https://github.com/ysx88/Phicomm-N1">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Phicomm-N1&theme=vue" />
 </a>
+<p align="center"><a href="https://anuraghazra.github.io"><img width="80%" alt="Hello, I'm TIAmo" src="./thems/TIAmo.png" /></a></p>
+
+<br />
