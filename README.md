@@ -20,7 +20,7 @@
 
 ![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
 
-# 传送门
+# Repo Card
 
 <a href="https://github.com/ysx88/OpenWrt">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
