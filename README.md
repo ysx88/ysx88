@@ -4,7 +4,7 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/ysx88/count.svg" alt="ysx88 :: Visitor's Count" /></p>
 
-| <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ysx88&show_icons=true&include_all_commits=true&theme=moltack&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ysx88&layout=compact&theme=gruvbox_light&hide_border=true" /></a> |
+| <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ysx88&show_icons=true&include_all_commits=true&theme=gruvbox_light&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ysx88&layout=compact&theme=moltack&hide_border=true" /></a> |
 | ------------- | ------------- |
 
 ## 💻 Working Environment
