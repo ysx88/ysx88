@@ -27,14 +27,14 @@
 # 传送门
 
 <a href="https://github.com/ysx88/OpenWrt">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=outrun" />
 </a>
 <a href="https://github.com/ysx88/NanoPi-R2S">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=jolly" />
 </a>
 <a href="https://github.com/ysx88/x86-64">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=x86-64&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=x86-64&theme=gruvbox" />
 </a>
 <a href="https://github.com/ysx88/Phicomm-N1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Phicomm-N1&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Phicomm-N1&theme=radical" />
 </a>
