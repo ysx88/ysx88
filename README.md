@@ -17,7 +17,6 @@
 [![Haiwei Mate 40](https://img.shields.io/badge/Haiwei%20Mate%2040-fd5355?style=flat-square&logo=huawei&logoColor=ffffff)](https://consumer.huawei.com/cn/phones/mate40-pro/)
 [![Apple iPhone13](https://img.shields.io/badge/Apple%20iPhone%2013-adse58?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com.cn/iphone-13/)
 ![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
-
 ## :sparkling_heart: Repo Card
 
 <a href="https://github.com/ysx88/OpenWrt">
