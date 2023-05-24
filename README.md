@@ -4,11 +4,12 @@
 
 <p align="center"><img src="https://profile-counter.glitch.me/ysx88/count.svg" alt="ysx88 :: Visitor's Count" /></p>
 
-<p align="center">
-    <a href="https://github.com/ysx88">
-      <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ysx88&include_all_commits=true&count_private=false&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" />
-    </a>
-</p>
+
+
+
+| <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ysx88&show_icons=true&include_all_commits=true&theme=solarized-light&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ysx88&layout=compact&theme=moltack&hide_border=true" /></a> |
+| ------------- | ------------- |
+
 
 
 ## 💻 Working Environment
