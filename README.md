@@ -5,7 +5,6 @@
 
 | <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api?username=ysx88&show_icons=true&include_all_commits=true&theme=gruvbox_light&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/ysx88/ysx88"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ysx88&layout=compact&theme=moltack&hide_border=true" /></a> |
 | ------------- | ------------- |
-
 ## 💻 Working Environment
 [![Windows 11](https://img.shields.io/badge/Windows%2011-00adef?style=flat-square&logo=windows&logoColor=ffffff)](https://www.microsoft.com/zh-cn/windows/windows-11)
 [![Mac OS](https://img.shields.io/badge/MacOS%20Monterey-a15522?style=flat-square&logo=MacOS&Color=ffffff)](https://support.apple.com/zh-cn/macos/)
