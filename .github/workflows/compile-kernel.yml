@@ -55,10 +55,10 @@ on:
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
-        default: "kernel-config/stable"
+        default: "stable"
         type: choice
         options:
-          - kernel-config/stable
+          - stable
 
 env:
   TZ: America/New_York
