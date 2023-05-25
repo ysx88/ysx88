@@ -14,10 +14,10 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  FEEDS_CONF: flippy/feeds.conf.default
-  CONFIG_FILE: flippy/config
-  DIY_P1_SH: flippy/diy-part1.sh
-  DIY_P2_SH: flippy/diy-part2.sh
+  FEEDS_CONF: kernel/flippy/feeds.conf.default
+  CONFIG_FILE: kernel/flippy/config
+  DIY_P1_SH: kernel/flippy/diy-part1.sh
+  DIY_P2_SH: kernel/flippy/diy-part2.sh
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   FILE_NAME: ARMv8_ROOTFS
