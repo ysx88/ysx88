@@ -11,10 +11,10 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  FEEDS_CONF: openwrt/feeds.conf.default
-  CONFIG_FILE: openwrt/r2s.config
-  DIY_P1_SH: openwrt/diy-part1.sh
-  DIY_P2_SH: openwrt/diy-r2s.sh
+  FEEDS_CONF: kernel/feeds.conf.default
+  CONFIG_FILE: kernel/r2s.config
+  DIY_P1_SH: kernel/diy-part1.sh
+  DIY_P2_SH: kernel/diy-r2s.sh
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   FILE_NAME: NanoPi-R2S
