@@ -10,10 +10,10 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  FEEDS_CONF: openwrt/feeds.conf.default
-  CONFIG_FILE: openwrt/n1.config
-  DIY_P1_SH: openwrt/diy-part1.sh
-  DIY_P2_SH: openwrt/diy-n1.sh
+  FEEDS_CONF: kernel/feeds.conf.default
+  CONFIG_FILE: kernel/n1.config
+  DIY_P1_SH: kernel/diy-part1.sh
+  DIY_P2_SH: kernel/diy-n1.sh
   TZ: Asia/Shanghai
   FILE_NAME: Phicomm-N1
   PRODUCT_NAME: Phicomm-N1
