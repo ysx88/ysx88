@@ -113,18 +113,3 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           body: |
             Flippy 系列固件打包专用内核，支持 Amlogic Allwinner Rockchip 平台。
-            
-      - name: Delete workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-            retain_days: 3
-            keep_minimum_runs: 3
-
-      - name: Remove old Releases
-        uses: dev-drprasad/delete-older-releases@v0.2.1
-        if: env.UPLOAD_RELEASE == 'true' && !cancelled()
-        with:
-          keep_latest: 7
-          delete_tags: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
