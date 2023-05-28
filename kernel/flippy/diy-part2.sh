@@ -179,8 +179,16 @@ find package/*/ -maxdepth 2 -path "*/Makefile" | xargs -i sed -i 's/PKG_SOURCE_U
 #svn co https://github.com/immortalwrt/immortalwrt/trunk/include/download.mk include/download.mk
 #svn co https://github.com/immortalwrt/immortalwrt/trunk/include/package-immortalwrt.mk include/package-immortalwrt.mk
 
-#readd cpufreq for aarch64
-#sed -i 's/LUCI_DEPENDS.*/LUCI_DEPENDS:=\@\(aarch64\|\|arm\)/g' feeds/luci/applications/luci-app-cpufreq/Makefile
+# 整理固件包时候,删除您不想要的固件或者文件,让它不需要上传到Actions空间(根据编译机型变化,自行调整删除名称)
+cat >"$CLEAR_PATH" <<-EOF
+config.buildinfo
+feeds.buildinfo
+openwrt-armvirt-64-generic.manifest
+Packages.tar.gz
+sha256sums
+version.buildinfo
+img.gz.sha
+EOF
 
 #replace coremark.sh with the new one
 cp -f $GITHUB_WORKSPACE/general/coremark.sh feeds/packages/utils/coremark/
