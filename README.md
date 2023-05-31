@@ -27,3 +27,4 @@
 <a href="https://github.com/ysx88/Phicomm-N1">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Phicomm-N1&theme=vue" />
 </a>
+**OpoenWrt** https://github.com/ysx88/OpenWrt       <img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
