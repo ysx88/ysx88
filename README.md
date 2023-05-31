@@ -29,3 +29,4 @@
 </a>
 
 **OpoenWrt** https://github.com/ysx88/OpenWrt       <img src="https://img.shields.io/github/downloads/ysx88/OpenWrt/total.svg?style=for-the-badge&color=32C955"/>
+**kernel** https://github.com/ysx88/kernel       <img src="https://img.shields.io/github/downloads/ysx88/kernel/total.svg?style=for-the-badge&color=32C955"/>
