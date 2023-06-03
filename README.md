@@ -14,16 +14,3 @@
 [![Haiwei Mate 40](https://img.shields.io/badge/Haiwei%20Mate%2040-fd5355?style=flat-square&logo=huawei&logoColor=ffffff)](https://consumer.huawei.com/cn/phones/mate40-pro/)
 [![Apple iPhone13](https://img.shields.io/badge/Apple%20iPhone%2013-adse58?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com.cn/iphone-13/)
 ![](https://raw.githubusercontent.com/DHDAXCW/DHDAXCW/output/github-snake.svg)
-## :sparkling_heart: Repo Card
-<a href="https://github.com/ysx88/OpenWrt">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
-</a>
-<a href="https://github.com/ysx88/NanoPi-R2S">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=transparent" />
-</a>
-<a href="https://github.com/ysx88/x86-64">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=x86-64&theme=flag-india" />
-</a>
-<a href="https://github.com/ysx88/Phicomm-N1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Phicomm-N1&theme=vue" />
-</a>
