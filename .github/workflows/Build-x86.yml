@@ -141,6 +141,9 @@ jobs:
       id: organize
       run: |
         cd openwrt/bin/targets/*/*
+        rm -rf IPK.tar.gz
+        rm -rf openwrt-x86-64-generic-kernel.bin
+        rm -rf profiles.json
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "{status}={success}" >> $GITHUB_OUTPUT
 
