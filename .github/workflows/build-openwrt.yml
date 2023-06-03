@@ -147,7 +147,13 @@ jobs:
         tar -zcvf Packages.tar.gz ./*
         cp Packages.tar.gz $GITHUB_WORKSPACE/openwrt/bin/targets/*/*
         cd $GITHUB_WORKSPACE/openwrt/bin/targets/*/*
-        rm -rf packages
+        rm -rf config.buildinfo
+        rm -rf feeds.buildinfo
+        rm -rf openwrt-armvirt-64-generic-kernel.bin
+        rm -rf openwrt-armvirt-64-generic.manifest
+        rm -rf Packages.tar.gz
+        rm -rf sha256sums
+        rm -rf version.buildinfo
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "status=success" >> ${GITHUB_OUTPUT}
 
