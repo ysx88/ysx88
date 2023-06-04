@@ -102,7 +102,7 @@ jobs:
         if: ${{ steps.init.outputs.status }} == 'success' && !cancelled()
         run: |
           armvirt_tarfile_repo="ysx88/flippy-openwrt-actions"
-          releases_tag_keywords="ARMv8"
+          releases_tag_keywords="ARMv8_ROOTFS"
 
           armvirt_tarfile_path="openwrt/bin/targets/armvirt/64"
           [[ -d "${armvirt_tarfile_path}" ]] || mkdir -p ${armvirt_tarfile_path}
