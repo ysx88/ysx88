@@ -18,12 +18,12 @@
 <a href="https://github.com/ysx88/OpenWrt">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
-<a href="https://github.com/ysx88/NanoPi-R2S">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=NanoPi-R2S&theme=transparent" />
+<a href="https://github.com/ysx88/flippy-openwrt-actions">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=flippy-openwrt-actions&theme=transparent" />
 </a>
-<a href="https://github.com/ysx88/x86-64">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=x86-64&theme=flag-india" />
+<a href="https://github.com/ysx88/my-packages">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=my-packages&theme=flag-india" />
 </a>
-<a href="https://github.com/ysx88/Phicomm-N1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Phicomm-N1&theme=vue" />
+<a href="https://github.com/ysx88/kernel">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=kernel&theme=vue" />
 </a>
