@@ -18,8 +18,8 @@
 <a href="https://github.com/ysx88/OpenWrt">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
-<a href="https://github.com/ysx88/kernel">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=kernel&theme=vue" />
+<a href="https://github.com/ysx88/compile-kernel">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=compile-kernel&theme=vue" />
 </a>
 <a href="https://github.com/ysx88/flippy-openwrt-actions">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=flippy-openwrt-actions&theme=transparent" />
