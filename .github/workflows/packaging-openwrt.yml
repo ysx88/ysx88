@@ -127,6 +127,18 @@ jobs:
           wget -q -P "${armvirt_tarfile_path}" "${latest_url}"
           [[ "${?}" -ne "0" ]] && echo "Invalid OpenWrt rootfs download address." && exit 1
 
+          Author=$(git show -s --date=short --format="Author: %an")
+          Date=$(git show -s --date=short --format="date: %ci")
+          Commit=$(git show -s --date=short --format="commit: %s")
+          Hash=$(git show -s --date=short --format="commit hash: %h")
+          echo "author=$Author" >> $GITHUB_ENV
+          echo "date=$Date" >> $GITHUB_ENV
+          echo "commit=$Commit" >> $GITHUB_ENV
+          echo "hash=$Hash" >> $GITHUB_ENV
+          echo "DATE=$(date "+%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
+          echo "TAG=$(date "+%Y%m%d")" >> $GITHUB_ENV
+          echo "TAG=$(date "+%Y%m%d")" >> $GITHUB_ENV
+          echo "start=$(date +%s)" >> $GITHUB_ENV
           echo "DATE=$(date "+%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
           echo "build_tag=OpenWrt-ARMv8" >> ${GITHUB_OUTPUT}
           echo "status=success" >> ${GITHUB_OUTPUT}
@@ -146,7 +158,7 @@ jobs:
         uses: ncipollo/release-action@main
         if: ${{ env.PACKAGED_STATUS }} == 'success' && !cancelled()
         with:
-          name: R${{ env.DATE }} for ${{ env.FILE_NAME }}
+          name: R${{ env.DATE }} 🚫「 ${{ env.FILE_NAME }} 」固件
           allowUpdates: true
           removeArtifacts: false
           replacesArtifacts: true
@@ -155,7 +167,7 @@ jobs:
           artifacts: ${{ env.PACKAGED_OUTPUTPATH }}/*
           body: |
             - 🔴默认 IP：192.168.1.1 默认密码：password
-            - 🔴WiFi默认密码：password
+            - ⭐️WiFi默认密码：password
             - 🔥此为 ARMv8 固件，集成一些日常常用插件
             - 安装到 EMMC：系统 → 晶晨宝盒 → 安装 OpenWrt → 选择型号 → 安装
             - 升级 OpenWrt：系统 → 晶晨宝盒 → 手动上传更新 或者 在线下载更新
@@ -163,7 +175,10 @@ jobs:
             - 当前使用版本:【编译前的最后一次➦[主源码](https://github.com/coolsnowwolf/lede)更新记录】
             - ★ 感谢源码作者无私分享！
             - 🎈🎈🎈 更新信息 🎈🎈🎈      
-            - 时间: ${{ env.date }}        
+            - 作者: ${{ env.author }}
+            - 时间: ${{ env.date }}
+            - 内容: ${{ env.commit }}
+            - hash: ${{ env.hash }}        
         
       - name: Completion time 
         run: |
