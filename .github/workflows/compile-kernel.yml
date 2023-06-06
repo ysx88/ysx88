@@ -1,4 +1,9 @@
-name: Compile kernel
+#==========================================================================
+# Description: Compile the Armbian kernel
+# Copyright (C) 2021 https://github.com/ophub/amlogic-s9xxx-armbian
+#==========================================================================
+
+name: Kernel_compilation
 
 on:
   repository_dispatch:
@@ -13,7 +18,7 @@ on:
         required: false
         default: ""
   schedule:
-    - cron: 00 20 * * *
+    - cron: 0 20 * * *
     
 env:
   KERNEL_SOURCE: unifreq
