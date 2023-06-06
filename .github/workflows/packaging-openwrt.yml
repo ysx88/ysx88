@@ -161,3 +161,17 @@ jobs:
             - 升级 OpenWrt：系统 → 晶晨宝盒 → 手动上传更新 或者 在线下载更新
             - 常见问题及注意事项请参考恩山F大➦[最新帖](https://www.right.com.cn/forum/thread-4076037-1-1.html)
             - 当前使用版本:【编译前的最后一次➦[主源码](https://github.com/coolsnowwolf/lede)更新记录】
+            - ★ 感谢源码作者无私分享！
+            - 🎈🎈🎈 更新信息 🎈🎈🎈      
+            - 时间: ${{ env.date }}        
+        
+      - name: Completion time 
+        run: |
+          echo "DATE1=$(date "+%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
+          end=$(date +%s)
+          seconds=$(( end - start ))
+          hour=$(( $seconds/3600 ))
+          min=$(( ($seconds-${hour}*3600)/60 ))
+          sec=$(( $seconds-${hour}*3600-${min}*60 ))
+          HMS=`echo ${hour}:${min}:${sec}`
+          echo "time=$HMS" >> $GITHUB_ENV
