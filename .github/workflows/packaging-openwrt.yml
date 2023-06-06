@@ -64,7 +64,7 @@ on:
         default: true
         type: boolean
   schedule:
-    - cron: '0 04 * * *'
+    - cron: '0 02 * * *'
 
 env:
   TZ: Asia/Shanghai
