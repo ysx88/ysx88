@@ -1,0 +1,52 @@
+name: Auto-update
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: 0 */12 * * *
+        
+env:
+  REPO_BRANCH: master
+  TZ: Asia/Shanghai
+  
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+      
+    - name: SSH connection to Actions
+      uses: P3TERX/ssh2actions@v1.0.0
+      if: (github.event.inputs.SSH == 'true' || github.event.inputs.SSH  == '1') 
+      
+    - name: Initialization environment
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        sudo timedatectl set-timezone "$TZ"
+        pwd
+        rm -rfv *
+        svn export https://github.com/coolsnowwolf/lede/trunk/ ./backup/lede
+        svn export https://github.com/coolsnowwolf/packages/trunk/ ./backup/packages
+        svn export https://github.com/coolsnowwolf/luci/trunk/ ./backup/luci
+        svn export https://github.com/ysx88/openwrt-packages/trunk/ ./backup/openwrt-packages
+        svn export https://github.com/ysx88/OpenWrt/trunk/ ./OpenWrt
+        svn export https://github.com/ysx88/flippy-openwrt-actions/trunk/ ./backup/flippy-openwrt-actions
+        svn export https://github.com/ysx88/compile-kernel/trunk/ ./backup/compile-kernel
+        svn export https://github.com/ysx88/shuoming/trunk/ ./backup/shuoming
+      
+    - name: Commit
+      run: |
+        git config --global user.email 115683308@qq.com
+        git config --global user.name ysx88
+        git add .
+        git commit -m"action:`date`"
+        git pull --rebase
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GH_TOKEN }}        
