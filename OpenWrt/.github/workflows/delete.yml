@@ -1,0 +1,18 @@
+name: 清理Actions
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: 0 16 */3 * *
+
+jobs:
+  del_runs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          repository: ${{ github.repository }}
+          keep_minimum_runs: 0
+          retain_days: ${{ env.retain_days }}
