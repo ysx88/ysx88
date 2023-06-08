@@ -9,16 +9,16 @@
 # 💖 Top Repositories
 
 <a href="https://github.com/ysx88/OpenWrt">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&show_owner=true&theme=buefy" />
 </a>
 <a href="https://github.com/ysx88/compile-kernel">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=compile-kernel&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=compile-kernel&show_owner=true&theme=buefy" />
 </a>
 <a href="https://github.com/ysx88/flippy-openwrt-actions">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=flippy-openwrt-actions&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=flippy-openwrt-actions&show_owner=true&theme=buefy" />
 </a>
 <a href="https://github.com/ysx88/openwrt-packages">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=openwrt-packages&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=openwrt-packages&show_owner=true&theme=buefy" />
 </a>
 
 <br />
