@@ -6,7 +6,7 @@
 | ------------- | ------------- |
 
 ![](https://raw.githubusercontent.com/ysx88/ysx88/main/assets/github-snake.svg)
-# 💖  💖  💖  💖 💖 Top Repositories 🌱  🌱  🌱  🌱  🌱
+# 💖  🌱  💖  🌱  💖 Top Repositories 💖  🌱  💖  🌱  💖 
 <a href="https://github.com/ysx88/OpenWrt">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=flag-india" />
 </a>
