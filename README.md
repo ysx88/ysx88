@@ -13,11 +13,11 @@
 #### Top Repositories
 
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=buefy" />
+<a href="https://github.com/ysx88/OpenWrt">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=github-readme-stats&theme=buefy" />
 </a>
-<a href="https://github.com/anuraghazra/anuraghazra.github.io">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=anuraghazra.github.io&theme=buefy" />
+<a href="https://github.com/ysx88/compile-kernel">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=anuraghazra.github.io&theme=buefy" />
 </a>
 
 <br />
