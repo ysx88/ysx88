@@ -14,10 +14,10 @@
 
 
 <a href="https://github.com/ysx88/OpenWrt">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=github-readme-stats&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt&theme=buefy" />
 </a>
 <a href="https://github.com/ysx88/compile-kernel">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=anuraghazra.github.io&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=compile-kernel&theme=buefy" />
 </a>
 
 <br />
