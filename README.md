@@ -19,3 +19,9 @@
 <a href="https://github.com/ysx88/openwrt-packages">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=openwrt-packages&theme=transparent" />
 </a>
+<a href="https://github.com/ysx88/Auto-update">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=Auto-update&theme=vue" />
+</a>
+<a href="https://github.com/ysx88/helloworld-passwall">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=helloworld-passwall&theme=flag-india" />
+</a>
