@@ -14,8 +14,8 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=compile-kernel&theme=transparent" />
 </a>
 <a href="https://github.com/ysx88/flippy-openwrt-actions">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=flippy-openwrt-actions&theme=vue" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=flippy-openwrt-actions&theme=buefy" />
 </a>
 <a href="https://github.com/ysx88/openwrt-packages">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=openwrt-packages&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=openwrt-packages&theme=vue" />
 </a>
