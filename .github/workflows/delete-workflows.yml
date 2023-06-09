@@ -1,4 +1,4 @@
-name: 清理Actions
+name: Delete Old Workflows
 on:
   workflow_dispatch:
 
