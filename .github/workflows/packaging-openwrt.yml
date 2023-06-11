@@ -3,65 +3,6 @@ name: packaging-openwrt
 on:
   repository_dispatch:
   workflow_dispatch:
-    inputs:
-      openwrt_soc:
-        description: "Select device board"
-        required: false
-        default: "all"
-        type: choice
-        options:
-          - all
-          - s922x_s905x3_s905x2_s912_s905d_s905
-          - rock5b_h88k_ak88
-          - h66k_h68k_h69k_r66s_r68s_e25
-          - beikeyun_l1pro
-          - rock5b
-          - h88k
-          - ak88
-          - h66k
-          - h68k
-          - h69k
-          - r66s
-          - r68s
-          - e25
-          - photonicat
-          - cm3
-          - beikeyun
-          - l1pro
-          - vplus
-          - s922x
-          - s922x-n2
-          - s905x3
-          - s905x2
-          - s912
-          - s905d
-          - s905
-          - qemu
-          - diy
-      openwrt_kernel:
-        description: "Select kernel version"
-        required: false
-        default: "5.15.1_6.1.1"
-        type: choice
-        options:
-          - 5.4.1_5.10.1
-          - 5.15.1_6.1.1
-          - 5.4.1
-          - 5.10.1
-          - 5.15.1
-          - 6.1.1
-      kernel_repo:
-        description: "Set the kernel repository"
-        required: false
-        default: "breakings/OpenWrt"
-        type: choice
-        options:
-          - breakings/OpenWrt
-      auto_kernel:
-        description: "Auto use the latest kernel"
-        required: false
-        default: true
-        type: boolean
   schedule:
     - cron: '0 02 * * *'
 
@@ -142,10 +83,10 @@ jobs:
         if: ${{ steps.down.outputs.status }} == 'success' && !cancelled()
         env:
           OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*rootfs.tar.gz
-          KERNEL_REPO_URL: ${{ inputs.kernel_repo }}
-          PACKAGE_SOC: ${{ inputs.openwrt_soc }}
-          KERNEL_VERSION_NAME: ${{ inputs.openwrt_kernel }}
-          KERNEL_AUTO_LATEST: ${{ inputs.auto_kernel }}
+          KERNEL_REPO_URL: https://github.com/ysx88/OpenWrt/releases/tag/kernel_stable
+          PACKAGE_SOC: all
+          KERNEL_VERSION_NAME: 5.4.228_5.10.161_5.15.100_6.1.8
+          KERNEL_AUTO_LATEST: true
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Upload OpenWrt Firmware to Release
