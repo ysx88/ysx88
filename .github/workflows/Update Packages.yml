@@ -1,0 +1,47 @@
+name: Update Packages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 4,10,16,22 * * *'
+  watch:
+    types: started
+
+env:
+  BRANCH: master
+  SCRIPT: assets/packages.sh
+
+jobs:
+  Update:
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+
+    - name: Set Git Identity
+      run : |
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        sudo timedatectl set-timezone "Asia/Shanghai"
+
+    - name: Update Packages
+      run: |
+        cd $GITHUB_WORKSPACE
+        chmod +x $SCRIPT
+        git clone -b $BRANCH https://github.com/ysx88/openwrt-packages.git
+        cd openwrt-packages
+        git rm -r --cache * >/dev/null 2>&1
+        rm -rf `find ./* -maxdepth 0 -type d ! -name "diy"` >/dev/null 2>&1
+        $GITHUB_WORKSPACE/$SCRIPT
+        echo "FILE_PATH=$PWD" >> $GITHUB_ENV
+
+    - name: Upload Packages
+      run: |
+        [ -e $GITHUB_WORKSPACE/README.md ] && cp $GITHUB_WORKSPACE/README.md $FILE_PATH
+        [ -e $GITHUB_WORKSPACE/LICENSE ] && cp $GITHUB_WORKSPACE/LICENSE $FILE_PATH
+        cd $FILE_PATH
+        git add .
+        Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
+        git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} Sync $(date +%Y-%m-%d" "%H:%M:%S)"
+        git push --quiet "https://${{ secrets.GH_TOKEN }}@github.com/ysx88/openwrt-packages.git" HEAD:$BRANCH
