@@ -78,4 +78,4 @@ git_sparse_clone main "https://github.com/haiibo/packages" "packages" luci-app-w
 git_sparse_clone master "https://github.com/kiddin9/openwrt-packages" "openwrt-packages" ffmpeg-remux \
 
 rm -rf ./*/.* & rm -rf ./*/LICENSE
-cp -f $GITHUB_WORKSPACE/assets/README.C.md ./README.C.md
+cp -f $GITHUB_WORKSPACE/assets/README.md ./README.md
