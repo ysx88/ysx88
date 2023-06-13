@@ -31,4 +31,4 @@ git clone https://github.com/kiddin9/openwrt-adguardhome && mvdir openwrt-adguar
 svn export https://github.com/haiibo/packages/trunk/luci-app-onliner
 
 rm -rf ./*/.* & rm -rf ./*/LICENSE
-cp -f $GITHUB_WORKSPACE/assets/README.cn.md ./README.cn.md
+cp -f $GITHUB_WORKSPACE/assets/diy/README.md ./README.md
