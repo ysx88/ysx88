@@ -21,14 +21,14 @@
 ### 使用方法（以下二选一）
 1. 添加到 feeds.conf.default 文件
 ```yml
-sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
+sed -i '1i src-git ysx88 https://github.com/ysx88/openwrt-packages' feeds.conf.default
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make menuconfig
 ```
 2. 在源码目录内直接拉取
 ```yml
-git clone https://github.com/haiibo/openwrt-packages package/openwrt-packages
+git clone https://github.com/ysx88/openwrt-packages package/openwrt-packages
 make menuconfig
 ```
 
