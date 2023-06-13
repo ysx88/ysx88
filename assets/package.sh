@@ -15,8 +15,6 @@ mv -n `find $1/* -maxdepth 0 -type d` ./
 rm -rf $1
 }
 
-git clone https://github.com/gngpp/luci-theme-design -b js --depth 1
-git clone https://github.com/gngpp/luci-app-design-config.git luci-app-design-config
 svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme-edge
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config
