@@ -31,6 +31,7 @@ svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn export https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic
 git clone https://github.com/kiddin9/openwrt-adguardhome && mvdir openwrt-adguardhome
 svn export https://github.com/haiibo/packages/trunk/luci-app-onliner
+svn export https://github.com/kiddin9/openwrt-packages/trunk/ffmpeg-remux
 svn export https://github.com/haiibo/openwrt-packages/trunk/linkease
 svn export https://github.com/haiibo/openwrt-packages/trunk/luci-app-linkease
 
