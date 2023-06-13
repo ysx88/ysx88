@@ -5,6 +5,7 @@
 ![](https://raw.githubusercontent.com/ysx88/ysx88/main/assets/github-snake.svg)
 <div align="center">
 <h1>OpenWrt — 个人使用的插件</h1>
+</div>
 
 ### 项目说明
  OpenWrt 常用插件包源码合集，适用于 [Lean](https://github.com/coolsnowwolf/lede) 源码
@@ -32,4 +33,4 @@
 | luci-app-vssr | Hello World 科学上网插件 |
 | luci-theme-argon | 老竭力开发的 Argon 主题 |
 | luci-theme-edge | 老竭力开发的 edge 主题 |
-</div>
+
