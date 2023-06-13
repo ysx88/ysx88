@@ -7,12 +7,30 @@
 <h1>OpenWrt — 常用插件包合集</h1>
 
 ### 项目说明
- OpenWrt 常用插件包源码合集，适用于 [Lean](https://github.com/coolsnowwolf/lede) 源码
+- OpenWrt 常用插件包源码合集，适用于 [Lean](https://github.com/coolsnowwolf/lede) 源码
 
- 自动同步上游源码，一键拉取直接编译，不用再一个个找插件
-   
- 所有插件都为 GITHUB 上收集的开源插件，感谢作者们的付出
+- 自动同步上游源码，一键拉取直接编译，不用再一个个找插件
+
+- SSR Plus+ 依赖全部同步在 `helloworld` 目录内，无需再额外拉取
+
+- PassWall 依赖全部同步在 `openwrt-passwall` 目录内，无需再额外拉取
+
+- 所有插件都为 GITHUB 上收集的开源插件，感谢作者们的付出
 </div>
+
+### 使用方法（以下二选一）
+1. 添加到 feeds.conf.default 文件
+```yml
+sed -i '1i src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
+./scripts/feeds update -a
+./scripts/feeds install -a
+make menuconfig
+```
+2. 在源码目录内直接拉取
+```yml
+git clone https://github.com/haiibo/openwrt-packages package/openwrt-packages
+make menuconfig
+```
 
 ## 插件中英文名称对照表
 ```
