@@ -29,6 +29,8 @@ svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn export https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic
 git clone https://github.com/kiddin9/openwrt-adguardhome && mvdir openwrt-adguardhome
 svn export https://github.com/haiibo/packages/trunk/luci-app-onliner
+git clone https://github.com/gngpp/luci-theme-design -b js --depth 1
+git clone https://github.com/gngpp/luci-app-design-config.git luci-app-design-config
 
 rm -rf ./*/.* & rm -rf ./*/LICENSE
 cp -f $GITHUB_WORKSPACE/assets/diy/README.md ./README.md
