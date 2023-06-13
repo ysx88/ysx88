@@ -19,9 +19,7 @@
 | luci-app-adguardhome | AdGuard Home 广告过滤 |
 | luci-app-amlogic | 晶晨宝盒 |
 | luci-app-argon-config | Argon 主题设置，需搭配 Argon 主题使用 |
-| luci-app-autoupdate | 在线更新固件 |
-| luci-app-easyupdate | 固件简易更新 |
-| luci-app-linkease |易有云插件 |
+| luci-app-bypass |bypass科学上网插件 |
 | luci-app-onliner | 在线用户 |
 | luci-app-openclash | OpenClash 小猫咪科学上网插件 |
 | luci-app-passwall | PassWall 科学上网插件 |
