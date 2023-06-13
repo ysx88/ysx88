@@ -30,7 +30,7 @@ jobs:
         cd $GITHUB_WORKSPACE
         chmod +x $SCRIPT
         git clone -b $BRANCH https://github.com/ysx88/my-packages.git
-        cd openwrt-packages
+        cd my-packages
         git rm -r --cache * >/dev/null 2>&1
         rm -rf `find ./* -maxdepth 0 -type d ! -name "diy"` >/dev/null 2>&1
         $GITHUB_WORKSPACE/$SCRIPT
