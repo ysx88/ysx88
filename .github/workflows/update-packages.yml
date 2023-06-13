@@ -3,7 +3,7 @@ name: Update Packages
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '*/60 * * * *'
+    - cron:  '0 */1 * * *'
   watch:
     types: started
 
