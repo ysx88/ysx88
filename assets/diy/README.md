@@ -7,9 +7,13 @@
 <h1>OpenWrt — 个人使用的插件</h1>
 
 ### 项目说明
- 此插件源码，适用于 [Lean](https://github.com/coolsnowwolf/lede) 源码
+- OpenWrt 常用插件包源码合集，适用于 [Lean](https://github.com/coolsnowwolf/lede) 源码
    
- 所有插件都为 GITHUB 上收集的开源插件，感谢作者们的付出
+- SSR Plus+ 依赖全部同步在 `helloworld` 目录内，无需再额外拉取
+
+- PassWall 依赖全部同步在 `openwrt-passwall` 目录内，无需再额外拉取
+
+- 所有插件都为 GITHUB 上收集的开源插件，感谢作者们的付出
 
 ### 插件说明
 | 插件 | 说明 |
