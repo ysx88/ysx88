@@ -31,7 +31,7 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff
 git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns smartdns
-git clone https://github.com/Hyy2001X/AutoBuild-Packages && rm -rf AutoBuild-Packages/luci-app-adguardhome && mvdir AutoBuild-Packages
+svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
 git clone --depth=1 https://github.com/peter-tank/luci-app-autorepeater
 git clone --depth=1 https://github.com/sensec/luci-app-udp2raw
 git clone --depth=1 https://github.com/sensec/openwrt-udp2raw udp2raw
@@ -40,7 +40,7 @@ git clone --depth=1 https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk mentohu
 git clone --depth=1 https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 git clone --depth=1 https://github.com/fw876/helloworld && rm -rf helloworld/luci-app-ssr-plus
-git clone https://github.com/kiddin9/openwrt-adguardhome && mvdir openwrt-adguardhome
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./luci-app-adguardhome
 git clone --depth 1 https://github.com/destan19/OpenAppFilter && mvdir OpenAppFilter
 git clone --depth 1 https://github.com/sbwml/openwrt-alist && mvdir openwrt-alist
 git clone --depth 1 https://github.com/sbwml/luci-app-mosdns openwrt-mosdns && mvdir openwrt-mosdns
