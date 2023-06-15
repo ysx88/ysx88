@@ -1,8 +1,3 @@
-#==========================================================================
-# Description: Compile the Armbian kernel
-# Copyright (C) 2021 https://github.com/ophub/amlogic-s9xxx-armbian
-#==========================================================================
-
 name: Kernel_compilation
 
 on:
@@ -142,7 +137,7 @@ jobs:
           echo "COMPILE_STARTINGTIME=$(date +"%m.%d.%H%M")" >> $GITHUB_ENV
           
       - name: Compile the kernel for Amlogic s9xxx
-        uses: ysx88/compile-kernel@main
+        uses: ysx88/kernel@main
         with:
           build_target: kernel
           kernel_source: ${{ env.KERNEL_SOURCE }}
