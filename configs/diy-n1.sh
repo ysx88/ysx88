@@ -15,6 +15,14 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-ar
 # 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果）
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
+# 更改 Argon 主题背景
+cp -f $GITHUB_WORKSPACE/configs/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
+
+# 晶晨宝盒
+sed -i "s|https.*/amlogic-s9xxx-openwrt|https://github.com/ysx88/ysx88|g" package/luci-app-amlogic/root/etc/config/amlogic
+sed -i "s|http.*/library|https://github.com/ysx88/ysx88|g" package/luci-app-amlogic/root/etc/config/amlogic
+sed -i "s|Phicomm-N1|g" package/luci-app-amlogic/root/etc/config/amlogic
+
 mkdir -p files/etc/openclash/core
 
 CLASH_DEV_URL="https://raw.githubusercontent.com/vernesong/OpenClash/core/master/dev/clash-linux-arm64.tar.gz"
