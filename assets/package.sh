@@ -27,8 +27,8 @@ git clone https://github.com/jerrykuku/luci-app-vssr
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn export https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic
-svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
-git clone https://github.com/kiddin9/openwrt-adguardhome && mvdir openwrt-adguardhome
+svn export https://github.com/281677160/openwrt-package/branches/adguard/adguardhome
+svn export https://github.com/281677160/openwrt-package/branches/adguard/luci-app-adguardhome
 svn export https://github.com/haiibo/packages/trunk/luci-app-onliner
 svn export https://github.com/kiddin9/openwrt-packages/trunk/ffmpeg-remux
 svn export https://github.com/haiibo/openwrt-packages/trunk/linkease
