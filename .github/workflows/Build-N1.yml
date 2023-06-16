@@ -138,7 +138,7 @@ jobs:
         PACKAGE_SOC: s905d
         KERNEL_AUTO_LATEST: true
         KERNEL_REPO_URL: https://github.com/ysx88/ysx88/releases/tag/kernel_stable
-        KERNEL_VERSION_NAME: 5.4.228_5.10.161_5.15.100_6.1.8
+        KERNEL_VERSION_NAME: 5.15.100
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
     - name: 发布固件
