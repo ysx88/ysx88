@@ -31,7 +31,6 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff
 git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns smartdns
-svn co https://github.com/immortalwrt/packages/trunk/net/adguardhome
 git clone --depth=1 https://github.com/peter-tank/luci-app-autorepeater
 git clone --depth=1 https://github.com/sensec/luci-app-udp2raw
 git clone --depth=1 https://github.com/sensec/openwrt-udp2raw udp2raw
@@ -40,7 +39,6 @@ git clone --depth=1 https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk mentohu
 git clone --depth=1 https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 git clone --depth=1 https://github.com/fw876/helloworld && rm -rf helloworld/luci-app-ssr-plus
-git clone https://github.com/kiddin9/openwrt-adguardhome && mvdir openwrt-adguardhome
 git clone --depth 1 https://github.com/destan19/OpenAppFilter && mvdir OpenAppFilter
 git clone --depth 1 https://github.com/sbwml/openwrt-alist && mvdir openwrt-alist
 git clone --depth 1 https://github.com/sbwml/luci-app-mosdns openwrt-mosdns && mvdir openwrt-mosdns
@@ -57,6 +55,8 @@ svn export https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass
 svn export https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic
+svn export https://github.com/281677160/openwrt-package/branches/adguard/adguardhome
+svn export https://github.com/281677160/openwrt-package/branches/adguard/luci-app-adguardhome
 svn export https://github.com/coolsnowwolf/packages/trunk/multimedia/UnblockNeteaseMusic
 svn export https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn export https://github.com/immortalwrt/packages/branches/openwrt-18.06/net/gost
