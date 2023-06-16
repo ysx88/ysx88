@@ -1,3 +1,8 @@
+#==========================================================================
+# Description: Compile the Armbian kernel
+# Copyright (C) 2021 https://github.com/ophub/amlogic-s9xxx-armbian
+#==========================================================================
+
 name: Kernel_compilation
 
 on:
