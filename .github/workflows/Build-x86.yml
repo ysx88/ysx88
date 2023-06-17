@@ -1,4 +1,4 @@
-name: Build-x86
+name: 编译x86固件
 
 on:
 #  repository_dispatch:
