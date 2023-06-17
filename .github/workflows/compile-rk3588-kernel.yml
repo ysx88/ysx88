@@ -4,7 +4,7 @@
 # Copyright (C) 2023 https://github.com/ophub/kernel
 #==========================================================================
 
-name: Compile rk3588 kernel
+name: 编译rk3588内核
 
 on:
   repository_dispatch:
