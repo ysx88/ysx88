@@ -1,4 +1,4 @@
-name: Build-R2S
+name: 编译R2S固件
 
 on:
   repository_dispatch:
