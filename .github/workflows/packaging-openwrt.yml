@@ -1,4 +1,4 @@
-name: packaging-openwrt
+name: 打包ARMv8固件
 
 on:
   repository_dispatch:
