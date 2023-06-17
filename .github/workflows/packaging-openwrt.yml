@@ -1,4 +1,4 @@
-name: 打包ARMv8固件
+name: 固件打包发布
 
 on:
   repository_dispatch:
