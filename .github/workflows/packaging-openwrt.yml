@@ -1,4 +1,4 @@
-name: 固件打包发布
+name: 打包固件
 
 on:
   repository_dispatch:
