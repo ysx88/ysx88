@@ -22,6 +22,9 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # 更改 Argon 主题背景
 cp -f $GITHUB_WORKSPACE/configs/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
 
+# replace banner
+cp -f $GITHUB_WORKSPACE/configs/banner package/base-files/files/etc/banner
+
 mkdir -p files/etc/openclash/core
 
 CLASH_DEV_URL="https://raw.githubusercontent.com/vernesong/OpenClash/core/master/dev/clash-linux-amd64.tar.gz"
