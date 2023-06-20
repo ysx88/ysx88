@@ -1,9 +1,3 @@
-#===============================================
-# Description: Multiple Source Check
-# Lisence: MIT
-# By：Jejz
-#===============================================
-
 name: Multiple Source Check
  
 on:
@@ -47,8 +41,8 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         message: |
           ✨༺Lede༻✨
                 ● 源码更新了
@@ -87,8 +81,8 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         message: |
           🚀 HelloWorld
                 ● 源码更新了
@@ -127,8 +121,8 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         message: |
           🚀 OpenClash
                 ● 源码更新了
@@ -167,8 +161,8 @@ jobs:
       if: steps.cacheHash.outputs.cache-hit != 'true'
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         message: |
           🚀 PassWall
                 ● 源码更新了
