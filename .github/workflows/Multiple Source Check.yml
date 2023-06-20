@@ -1,0 +1,178 @@
+#===============================================
+# Description: Multiple Source Check
+# Lisence: MIT
+# By：Jejz
+#===============================================
+
+name: Multiple Source Check
+ 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 6 */2 * * * 
+     
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Checka:
+    runs-on: ubuntu-latest
+    env:
+      REPO_URL_Lede: https://github.com/coolsnowwolf/lede
+      REPO_BRANCH_Lede: master
+      REPO_PATH_Lede: "lede"
+    steps:
+    - name: Get Commit Hash
+      id: getHash
+      run: |
+        git clone --depth 1 $REPO_URL_Lede -b $REPO_BRANCH_Lede $REPO_PATH_Lede
+        cd $REPO_PATH_Lede
+        echo "commitHash_Lede=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+        cd      
+    - name: Show Commit Head and Combination Heads
+      id: combHeader
+      run: |
+        echo "commitHash_Lede: ${{ steps.getHash.outputs.commitHash_Lede }}"    
+    - name: Compare Commit Hash
+      id: cacheHash
+      uses: actions/cache@main
+      with:
+        path: .commitHash_Lede
+        key: HEAD-${{ steps.getHash.outputs.commitHash_Lede }}
+    - name: Save New Commit Hash
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      run: |
+        echo ${{ steps.getHash.outputs.commitHash_Lede }} | tee .commitHash_Lede  
+    - name: Telegram notification upload success
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: |
+          ✨༺Lede༻✨
+                ● 源码更新了
+          ✪ ✣ ✤ ✥ ✦ ❉ ❦ ❧ ❃ ❂ ❁ ❀
+          📍：https://github.com/coolsnowwolf/lede
+# /////////////////////////////////////////////////////////////////////////////////////////////////////////        
+  Checkb:
+    runs-on: ubuntu-latest
+    env:
+      REPO_URL_HelloWorld: https://github.com/fw876/helloworld
+      REPO_BRANCH_HelloWorld: master
+      REPO_PATH_HelloWorld: "helloworld"
+    steps:
+    - name: Get Commit Hash
+      id: getHash
+      run: |
+        git clone --depth 1 $REPO_URL_HelloWorld -b $REPO_BRANCH_HelloWorld $REPO_PATH_HelloWorld 
+        cd $REPO_PATH_HelloWorld
+        echo "commitHash_HelloWorld=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+        cd    
+    - name: Show Commit Head and Combination Heads
+      id: combHeader
+      run: |
+        echo "commitHash_HelloWorld: ${{ steps.getHash.outputs.commitHash_HelloWorld }}"   
+    - name: Compare Commit Hash
+      id: cacheHash
+      uses: actions/cache@main
+      with:
+        path: .commitHash_HelloWorld
+        key: HEAD-${{ steps.getHash.outputs.commitHash_HelloWorld }}
+    - name: Save New Commit Hash
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      run: |
+         echo ${{ steps.getHash.outputs.commitHash_HelloWorld }} | tee .commitHash_HelloWorld    
+    - name: Telegram notification upload success
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: |
+          🚀 HelloWorld
+                ● 源码更新了
+          ✪ ✣ ✤ ✥ ✦ ❉ ❦ ❧ ❃ ❂ ❁ ❀
+          📍：https://github.com/fw876/helloworld   
+# /////////////////////////////////////////////////////////////////////////////////////////////////////////       
+  Checkc:
+    runs-on: ubuntu-latest
+    env:
+      REPO_URL_OpenClash: https://github.com/vernesong/OpenClash
+      REPO_BRANCH_OpenClash: master
+      REPO_PATH_OpenClash: "OpenClash"
+    steps:
+    - name: Get Commit Hash
+      id: getHash
+      run: |
+        git clone --depth 1 $REPO_URL_OpenClash -b $REPO_BRANCH_OpenClash $REPO_PATH_OpenClash
+        cd $REPO_PATH_OpenClash
+        echo "commitHash_OpenClash=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+        cd  
+    - name: Show Commit Head and Combination Heads
+      id: combHeader
+      run: |
+        echo "commitHash_OpenClash: ${{ steps.getHash.outputs.commitHash_OpenClash }}"       
+    - name: Compare Commit Hash
+      id: cacheHash
+      uses: actions/cache@main
+      with:
+        path: .commitHash_OpenClash
+        key: HEAD-${{ steps.getHash.outputs.commitHash_OpenClash }}        
+    - name: Save New Commit Hash
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      run: |
+         echo ${{ steps.getHash.outputs.commitHash_OpenClash }} | tee .commitHash_OpenClash     
+    - name: Telegram notification upload success
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: |
+          🚀 OpenClash
+                ● 源码更新了
+          ✪ ✣ ✤ ✥ ✦ ❉ ❦ ❧ ❃ ❂ ❁ ❀
+          📍：https://github.com/vernesong/OpenClash
+# /////////////////////////////////////////////////////////////////////////////////////////////////////////       
+  Checkd:
+    runs-on: ubuntu-latest
+    env:
+      REPO_URL_PassWall: https://github.com/xiaorouji/openwrt-passwall
+      REPO_BRANCH_PassWall: luci
+      REPO_PATH_PassWall: "PassWall"
+    steps:
+    - name: Get Commit Hash
+      id: getHash
+      run: |
+        git clone --depth 1 $REPO_URL_PassWall -b $REPO_BRANCH_PassWall $REPO_PATH_PassWall
+        cd $REPO_PATH_PassWall
+        echo "commitHash_PassWall=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+        cd  
+    - name: Show Commit Head and Combination Heads
+      id: combHeader
+      run: |
+        echo "commitHash_PassWall: ${{ steps.getHash.outputs.commitHash_PassWall }}"       
+    - name: Compare Commit Hash
+      id: cacheHash
+      uses: actions/cache@main
+      with:
+        path: .commitHash_PassWall
+        key: HEAD-${{ steps.getHash.outputs.commitHash_PassWall }}        
+    - name: Save New Commit Hash
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      run: |
+         echo ${{ steps.getHash.outputs.commitHash_PassWall }} | tee .commitHash_PassWall     
+    - name: Telegram notification upload success
+      if: steps.cacheHash.outputs.cache-hit != 'true'
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: |
+          🚀 PassWall
+                ● 源码更新了
+          ✪ ✣ ✤ ✥ ✦ ❉ ❦ ❧ ❃ ❂ ❁ ❀
+          📍：https://github.com/xiaorouji/openwrt-passwall
+          📍：https://github.com/xiaorouji/openwrt-passwall/tree/luci
+# //////////////////////////////////////////////////////////////////////////////////////////////
