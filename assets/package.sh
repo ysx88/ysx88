@@ -33,8 +33,6 @@ svn export https://github.com/haiibo/packages/trunk/luci-app-onliner
 svn export https://github.com/kiddin9/openwrt-packages/trunk/ffmpeg-remux
 svn export https://github.com/haiibo/openwrt-packages/trunk/linkease
 svn export https://github.com/haiibo/openwrt-packages/trunk/luci-app-linkease
-svn co https://github.com/sbwml/openwrt-alist/trunk/alist ./alist
-svn co https://github.com/sbwml/openwrt-alist/trunk/luci-app-alist ./luci-app-alist
 
 rm -rf ./*/.* & rm -rf ./*/LICENSE
 cp -f $GITHUB_WORKSPACE/assets/diy/README.md ./README.md
