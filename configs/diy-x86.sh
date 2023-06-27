@@ -6,7 +6,8 @@ sed -i 's/192.168.1.1/192.168.88.2/g' package/base-files/files/bin/config_genera
 
 sed -i 's/KERNEL_PATCHVER:=6.1/KERNEL_PATCHVER:=5.15/g' target/linux/x86/Makefile
 
-sed -i 's/os.date()/os.date("%Y-%m-%d %H:%M:%S")/g' package/lean/autocore/files/arm/index.htm
+# Set DISTRIB_REVISION
+sed -i "s/OpenWrt /TIAmo Build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 # 移除重复软件包
 rm -rf feeds/luci/themes/luci-theme-argon
