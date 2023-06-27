@@ -4,6 +4,9 @@
 # 修改openwrt登陆地址,把下面的192.168.11.1修改成你想要的就可以了
 sed -i 's/192.168.1.1/192.168.71.3/g' package/base-files/files/bin/config_generate
 
+# Set DISTRIB_REVISION
+sed -i "s/OpenWrt /TIAmo Build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
+
 # 移除重复软件包
 rm -rf feeds/luci/themes/luci-theme-argon
 
