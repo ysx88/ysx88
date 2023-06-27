@@ -24,11 +24,6 @@ cp -f $GITHUB_WORKSPACE/configs/bg1.jpg package/luci-theme-argon/htdocs/luci-sta
 # replace banner
 cp -f $GITHUB_WORKSPACE/configs/banner package/base-files/files/etc/banner
 
-# 晶晨宝盒
-sed -i "s|https.*/amlogic-s9xxx-openwrt|https://github.com/ysx88/ysx88|g" package/luci-app-amlogic/root/etc/config/amlogic
-sed -i "s|http.*/library|https://github.com/ysx88/ysx88|g" package/luci-app-amlogic/root/etc/config/amlogic
-sed -i "s|NanoPi-R2S|g" package/luci-app-amlogic/root/etc/config/amlogic
-
 mkdir -p files/etc/openclash/core
 
 CLASH_DEV_URL="https://raw.githubusercontent.com/vernesong/OpenClash/core/master/dev/clash-linux-arm64.tar.gz"
