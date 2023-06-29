@@ -3,8 +3,8 @@ name: 打包固件
 on:
   repository_dispatch:
   workflow_dispatch:
-  #schedule:
-   # - cron: '0 02 * * *'
+  schedule:
+    - cron: '0 02 * * *'
 
 env:
   TZ: Asia/Shanghai
