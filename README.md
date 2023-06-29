@@ -19,8 +19,8 @@
 <a href="https://github.com/ysx88/openwrt-packages">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=openwrt-packages&theme=transparent" />
 </a>
-<a href="https://github.com/ysx88/OpenWrt-Docker">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=OpenWrt-Docker&theme=vue" />
+<a href="https://github.com/ysx88/nas-tools">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=nas-tools&theme=vue" />
 </a>
 <a href="https://github.com/ysx88/my-packages">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ysx88&repo=my-packages&theme=flag-india" />
