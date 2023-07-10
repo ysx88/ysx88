@@ -35,6 +35,10 @@ svn export https://github.com/haiibo/openwrt-packages/trunk/linkease
 svn export https://github.com/haiibo/openwrt-packages/trunk/luci-app-linkease
 svn co https://github.com/sbwml/openwrt-alist/trunk/luci-app-alist ./luci-app-alist
 svn co https://github.com/sbwml/openwrt-alist/trunk/alist ./alist
+git clone --depth 1 https://github.com/linkease/istore && mv -n istore/luci/* ./; rm -rf istore
+git clone --depth 1 https://github.com/linkease/istore-ui && mv -n istore-ui/app-store-ui ./; rm -rf istore-ui
+git clone --depth 1 https://github.com/linkease/nas-packages && mv -n nas-packages/network/services/* ./; rm -rf nas-packages
+git clone --depth 1 https://github.com/linkease/nas-packages-luci && mv -n nas-packages-luci/luci/* ./; rm -rf nas-packages-luci
 
 rm -rf ./*/.* & rm -rf ./*/LICENSE
 cp -f $GITHUB_WORKSPACE/assets/diy/README.md ./README.md
